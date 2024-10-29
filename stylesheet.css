@@ -51,8 +51,90 @@ div{
 
 .background-image{
     background-color: darkred;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Panor%C3%A1mica_Oto%C3%B1o_Alc%C3%A1zar_de_Segovia.jpg/1200px-Panor%C3%A1mica_Oto%C3%B1o_Alc%C3%A1zar_de_Segovia.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
     display: inline-block;
 
+}
+
+.background-image-repeat{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Panor%C3%A1mica_Oto%C3%B1o_Alc%C3%A1zar_de_Segovia.jpg/1200px-Panor%C3%A1mica_Oto%C3%B1o_Alc%C3%A1zar_de_Segovia.jpg);
+    background-repeat: repeat-x;
+}
+
+.box1{
+    background-color: darkred;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+}
+
+.box2{
+    background-color: crimson;
+    z-index: 2;
+    position: absolute;
+}
+
+.flex1{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.flex2{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.flex3{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.flex4{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.child1{
+    background-color: lightcoral;
+    height: 150px;
+}
+
+.child2{
+    background-color: lightblue;
+    height: 200px;
+}
+
+.child3{
+    background-color: lavender;
+    height: 100px;
+}
+
+.flex5{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+    margin: 30px;
 }
 
 
