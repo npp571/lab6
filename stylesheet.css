@@ -1,16 +1,61 @@
 div{
     border: 2px solid black;
-    height: 60px;
-    width: 60px;
-    display: inline-block;
+    height: 100px;
+    width: 100px;
     text-align: center;
 }
-#static-box{
+.static-box{
+    background-color: cornflowerblue;
     position: static;
+    display: inline-block;
 }
 
-#relative-box{
+.relative-box{
+    background-color: darkolivegreen;
     position: relative;
-    margin-top: 20px;
-    margin-left: 30px;
+    left: 20px;
+    top: 30px;
+    display: inline-block;
 }
+
+.contain{
+    border: solid black 4px;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.absolute-box{
+    background-color: darkseagreen;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: inline-block;
+}
+
+.fixed-box{
+    position: fixed;
+    background-color: darkcyan;
+    bottom: 10px;
+    right: 10px;
+    width: 100vw;
+    display: inline-block;
+}
+
+.sticky-box{
+    position: sticky;
+    top: 0px;
+    background-color: purple;
+    display: inline-block;
+}
+
+.background-image{
+    background-color: darkred;
+    display: inline-block;
+
+}
+
+
+
+
+
