@@ -3,6 +3,7 @@ div{
     height: 100px;
     width: 100px;
     text-align: center;
+    background-color: lightsteelblue;
 }
 .static-box{
     background-color: cornflowerblue;
@@ -22,9 +23,13 @@ div{
     border: solid black 4px;
     height: 200px;
     width: 200px;
-    margin-top: 40px;
+    position: absolute;
+    margin: 30px;
     display: inline-block;
+    left: 400px;
+
 }
+
 .absolute-box{
     background-color: darkseagreen;
     position: absolute;
@@ -45,8 +50,16 @@ div{
 .sticky-box{
     position: sticky;
     top: 0px;
+    right: 0px;
     background-color: purple;
     display: inline-block;
+}
+
+.para{
+    height: 200px;
+    width: 100vw;
+    margin-top: 150px;
+    margin-bottom: 60px;
 }
 
 .background-image{
@@ -56,24 +69,28 @@ div{
     height: 400px;
     width: 400px;
     display: inline-block;
+    margin: 30px;
 
 }
 
 .background-image-repeat{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Panor%C3%A1mica_Oto%C3%B1o_Alc%C3%A1zar_de_Segovia.jpg/1200px-Panor%C3%A1mica_Oto%C3%B1o_Alc%C3%A1zar_de_Segovia.jpg);
     background-repeat: repeat-x;
+    margin: 30px;
 }
 
 .box1{
     background-color: darkred;
     z-index: 1;
     position: absolute;
+    margin: 30px;
 }
 
 .box2{
     background-color: crimson;
     z-index: 2;
     position: absolute;
+    margin: 30px;
 }
 
 .flex1{
@@ -81,7 +98,9 @@ div{
     width: 500px;
     display: flex;
     flex-direction: row;
-    margin: 30px;
+    margin-left: 30px;
+    margin-top: 200px;
+    background-color: pink;
 }
 
 .flex2{
@@ -90,6 +109,7 @@ div{
     display: flex;
     flex-direction: column;
     margin: 30px;
+    background-color: bisque;
 }
 
 .flex3{
@@ -99,6 +119,7 @@ div{
     flex-direction: row;
     justify-content: space-evenly;
     margin: 30px;
+    background-color: lightsalmon;
 }
 
 .flex4{
@@ -109,6 +130,7 @@ div{
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px;
+    background-color: mediumpurple;
 }
 
 .child1{
@@ -133,6 +155,7 @@ div{
     flex-direction: row;
     align-items: center;
     margin: 30px;
+    background-color: lemonchiffon;
 }
 
 .flex6{
@@ -140,7 +163,21 @@ div{
     width: 500px;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    align-content: space-evenly;
     margin: 30px; 
+    background-color: darkslategrey;
 }
 
+.flex-grow{
+    flex-grow: 2;
+}
+
+.flex7{
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    margin: 30px;
+    background-color: palevioletred;
+}
